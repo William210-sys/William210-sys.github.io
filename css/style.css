@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: rgb(28, 33, 105); 
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.header img {
+  width: 100px; 
+  height: auto;
+  border-radius: 50%; 
+}
+.button-circle {
+  display: inline-block;
+  margin: 5px;
+  padding: 15px 20px;
+  background-color: #000000; 
+  color: white;
+  border-radius: 50%; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.button-circle:hover {
+  background-color: #000080; 
+}
+/*section*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.menu-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*section 2*/
+section {
+  background-color: #c0ac39; /* Color de fondo dorado */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+h2 {
+  color: #ffffff; /* Color azul oscuro para los títulos */
+}
+ul {
+  list-style-type: none; 
+  padding: 0;
+}
+li {
+  background-color: #FFA500; 
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px; 
+}
+.blue-link {
+  color: #000080; 
+  text-decoration: none; 
+}
+.blue-link:hover {
+  text-decoration: underline; 
+}
+
+/* seccion 3*/
+.news-section {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+.news-section h3 {
+  color: #ffffff;
+}
+.facebook-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+.facebook-button img {
+  width: 200px;
+  height: 200px; 
+  height: auto;
+}
+section{
+  background-color: rgb(21, 50, 131);
+  text-align: center;
+}
