@@ -1,0 +1,29 @@
+
+body {
+  text-align: center;
+  background-color: rgb(27, 58, 145);
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: rgb(68, 112, 192);
+}
+th, td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+th {
+  background-color: rgb(185, 149, 29);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+p, tr { 
+  font-style: times;
+  font-weight: bold;
+  font-size: large;
+  color: azure;
+}

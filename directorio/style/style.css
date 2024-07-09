@@ -1,0 +1,45 @@
+  body {
+    font-family: "Arial", sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: url(../img/fondo-uady.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+
+  th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  tr:nth-child(2) td {
+    background-color: rgb(233, 190, 0);
+    color: white;
+  }
+
+  .fila-azul {
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+  }
+
+  tr:nth-child(n+3) td {
+    background-color: white;
+    color: black;
+  }
+
+  tr:nth-child(n+3):hover td {
+    background-color: #e6e6e6;
+  }
+
+  tr:nth-child(1) td, tr:nth-child(2) td {
+    width: 25%;
+  }
+
+  .texto-final {
+    color: white;
+  }
